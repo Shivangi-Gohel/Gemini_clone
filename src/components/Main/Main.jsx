@@ -11,7 +11,6 @@ const Main = () => {
     <div className='main'>
       <div className='nav'>
         <p>Gemini</p>
-        <p>Effect ana baki hai bhaya & answer 2 times repeated</p>
         <img src={assets.user_icon} alt="" />
       </div>
       <div className='main-container'>
@@ -19,7 +18,7 @@ const Main = () => {
         {!showResult ?
         <>
         <div className='greet'>
-            <p><span>Hello, Shivu.</span></p>
+            <p><span>Hello, User.</span></p>
             <p>How can I help you today?</p>
         </div>
         <div className="cards">
